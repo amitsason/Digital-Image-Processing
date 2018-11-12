@@ -7,3 +7,7 @@ here is the image:
 and here is the image in frequency domain:
 * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/2D%20fouriere%20transform/transformed%20image.jpg)
 
+we can clearly see 4 distinct frequencies (white dots) of the sin waves in which 2 dots represent the negative frequencies
+so if we look at the magnitude, we are left with only 2 frequencies.
+
+
