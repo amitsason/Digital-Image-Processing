@@ -2,7 +2,7 @@
 
 Wiener filter uses the statistical characteristics of a given signal X and a given noise N to find a H(f) minimize the MSE (mean squered error)
 between the reconstructed signal to the original signal.
-given a system y(t) = x(t) + n(t) the fouriere transform of the system is: Y(f) = X(f) + N(f)
+given a system **y(t) = x(t) + n(t)** the fouriere transform of the system is: Y(f) = X(f) + N(f)
 when X and N are statistically independent (uncorrelated), the filter formula is given by: 
 (V = Noise)
 * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/Wiener%20Filter/formula.JPG)
