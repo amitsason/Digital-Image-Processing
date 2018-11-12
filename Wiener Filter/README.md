@@ -10,7 +10,7 @@ when X and N are statistically independent (uncorrelated), the filter formula is
 where Sx and Sv are the power spectral density functions (PSD) of X and N.
 
 In the case of impulse respons (blurr) h(t) the system is given by: y(t) = (h*x)(t) + n(t)  ('*' stands for convolution)
-and the fouriere transform is Y(f) = H(f)X(f)+N(f). we want to fint G(f) that acts as an inverse filter to the blurr:
+and the fouriere transform is Y(f) = H(f)X(f)+N(f). we want to fint G(f) that acts as an inverse filter to the blurr where the N(f) is low and do nothing when N(f) is high:
 * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/Wiener%20Filter/formula3.JPG)
 
 after multipling with H(f)/H(f) and a little algebra we get:
