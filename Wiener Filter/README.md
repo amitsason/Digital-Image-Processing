@@ -1,6 +1,7 @@
 # Using Wiener Filter to filter out speckle noise #
 
-Wiener filter uses the  spectral characteristics of a given signal **X** and a given noise **N** to find a **H(f)** minimize the **MSE** (mean squered error)between the reconstructed signal to the original signal by statistical autocorelation:MSE =  * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/Wiener%20Filter/formula4.JPG).
+Wiener filter uses the  spectral characteristics of a given signal **X** and a given noise **N** to find a **H(f)** minimize the **MSE** (mean squered error)between the reconstructed signal to the original signal by statistical autocorelation:
+MSE =  * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/Wiener%20Filter/formula4.JPG).
 Wiener filter is the most efficient filter in frequency domain! because it is very simple to calculate the PSD of a signal by fourier transform times it's complex conjugate, rather than calculating it's statistical charachteristics (mean, variance) in time domain.
 given a system ***y(t) = x(t) + n(t)*** the fouriere transform of the system is: ***Y(f) = X(f) + N(f)***
 when **X** and **N** are statistically independent (uncorrelated), the filter formula is given by: 
