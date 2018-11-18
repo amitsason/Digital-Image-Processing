@@ -32,8 +32,8 @@ We have filtered and reconstructed the image almost perfectly, but because data 
 let us define image frequency as the rate of change in pixels values in x and y directions.
 on the one hand, we can see that we lost a lot of data in regions of low frequency (homogeneous regions) because they are dark and that impliesof a big difference between the original and restored image.
 on the other hand regions with high frequecies like the hat's furr were barely damaged and appear white because there is no big difference between original and restored image.
+- - - - 
 # Conclusions #
-Filtering noise in frequency domain can be very useful for specific peridic frequencies.
-The filtering process was very simple and the image contrast was ever so slighly damaged.
+* *Filtering noise in frequency domain can be very useful for specific peridic frequencies.
+* *The filtering process was very simple and the image contrast was ever so slighly damaged.
 
-* ![picture alt]()
