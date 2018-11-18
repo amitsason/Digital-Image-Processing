@@ -1,5 +1,7 @@
 # Filtering in Frequency Domain #
 ## Adding noise in image domain and filtering it in frequency domain ##
+- - - - 
+
 In this section we will add a spatial sinusoidal noise across the whole image and then filter it out using fourier transform.
 
 
@@ -22,13 +24,16 @@ Next we turn the white pixels (values above 0.9) in the above coordinates into b
 That will neutralize the the disrupting frequencies effect on the image.
 Than we do a reverse fourier transform on the image and we get:
 * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/Filtering%20image%20in%20frequency%20domain/afterFTT.JPG)
-We have filtered and reconstructed the image almost perfectly, but because lost data in the filtering the reconstructed image is slightly different from the original image. we can make the difference tangible by subtracting the filtered image from the original image and get:
+We have filtered and reconstructed the image almost perfectly, but because data was lost in the filtering process, the reconstructed image is slightly different from the original image. we can make the difference tangible by subtracting the filtered image from the original image and show the values as an image:
 * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/Filtering%20image%20in%20frequency%20domain/lostData.JPG)
 * Dark Regions - big data loss
 * Light Regions - little data loss
 
 let us define image frequency as the rate of change in pixels values in x and y directions.
 on the one hand, we can see that we lost a lot of data in regions of low frequency (homogeneous regions) because they are dark and that impliesof a big difference between the original and restored image.
-on the other hand regions with high frequecies like the hat's furr were barely damaged and appear white because there is no big difference betwwen original and restored image.
+on the other hand regions with high frequecies like the hat's furr were barely damaged and appear white because there is no big difference between original and restored image.
+# Conclusions #
+Filtering noise in frequency domain can be very useful for specific peridic frequencies.
+The filtering process was very simple and the image contrast was ever so slighly damaged.
 
 * ![picture alt]()
