@@ -13,7 +13,7 @@ Let us look up close at the fourier transform of the noisy image, we can see 3 d
 * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/Filtering%20image%20in%20frequency%20domain/noiseInFreqDom.JPG)
 
 
-If wee zoom in we can see the exact coordinates of the problematic pixels:
+If we zoom in we can see the exact coordinates of the problematic pixels:
 * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/Filtering%20image%20in%20frequency%20domain/firstFreqCoo.JPG)
 * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/Filtering%20image%20in%20frequency%20domain/secondFreqCoo.JPG)
 
@@ -25,7 +25,7 @@ Than we do a reverse fourier transform on the image and we get:
 We have filtered and reconstructed the image almost perfectly, but because lost data in the filtering the reconstructed image is slightly different from the original image. we can make the difference tangible by subtracting the filtered image from the original image and get:
 * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/Filtering%20image%20in%20frequency%20domain/lostData.JPG)
 * Dark Regions - big data loss
-* Light Regions - small data loss
+* Light Regions - little data loss
 
 let us define image frequency as the rate of change in pixels values in x and y directions.
 on the one hand, we can see that we lost a lot of data in regions of low frequency (homogeneous regions) because they are dark and that impliesof a big difference between the original and restored image.
