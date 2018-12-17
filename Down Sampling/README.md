@@ -33,12 +33,9 @@ the original image resolution is 201x251 pixels.
 * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/Down%20Sampling/images/originalanddownk4.JPG)
 * ![picture alt](https://github.com/amitsason/Digital-Image-Processing/blob/master/Down%20Sampling/images/originalvsdownk4.JPG)
 ----
-we can clearly see that if we down sample
 
 
-* ![picture alt]()
-* ![picture alt]()
-* ![picture alt]()
-* ![picture alt]()
+we can clearly see that if we down sample the resolution of the image decrease but we manage to preserve the important features of the image.
+
 
 
